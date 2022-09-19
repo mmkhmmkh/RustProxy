@@ -1,0 +1,16 @@
+[package]
+name = "RustProxy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = { version = "0.14", features = ["full"] }
+hyper-tls = "0.5"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+bytes = "1"
+http-body = { version = "0.4.5" }
+url = "1"
+flate2 = "1"
